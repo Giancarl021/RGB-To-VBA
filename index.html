@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB para VBA</title>
+
+    <link rel="stylesheet" href="libs/bulma.min.css">
+
+    <script src="libs/jquery.js"></script>
+    <link rel="stylesheet" href="libs/spectrum.min.css">
+    <script src="libs/spectrum.min.js"></script>
+    <script src="libs/clipboard.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <main class="section container">
+        <input id="color-picker" value='#000' />
+    </main>
+    <section class="section container">
+        <input id="output" class="input" readonly>
+        <button class="button is-dark is-fullwidth" data-clipboard-target="#output">
+            Copiar
+        </button>
+    </section>
+</body>
+
+</html>
