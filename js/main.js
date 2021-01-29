@@ -6,7 +6,9 @@ function init() {
         change: onChange,
         showAlpha: false,
         color: '#000',
-        showInitial: "true"
+        preferredFormat: 'rgb',
+        showInitial: 'true',
+        showInput: true
     });
 
     new ClipboardJS('.button');
